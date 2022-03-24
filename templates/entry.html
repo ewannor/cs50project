@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block title %}
+{{name }}
+{% endblock %}
+
+{% block main %}
+
+<div class="name">
+    <div class="item1">
+        <h1>{{ name }}</h1>
+    </div>
+    <div class="item2">
+
+    </div>
+</div>
+
+<hr class="hline mx-auto">
+
+<div class="definitions mx-auto">
+
+    <h3 class="wordtype text-start">{{ wordtype }}</h3>
+    <ol>
+    {% for definition in definitions %}
+
+            <li class="text-start my-4">{{ definition }}</li>
+
+    {% endfor %}
+    </ol>
+</div>
+
+
+{% endblock %}

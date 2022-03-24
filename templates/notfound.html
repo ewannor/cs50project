@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Apology
+{% endblock %}
+
+{%block main %}
+
+<div class="my-5">
+    <img src="/static/images/sadmagnifier.png" alt="word not found" id="notfound">
+
+    <h2 class="mb-4">Word not Found</h2>
+    <p>We're sorry, the word you're searching for is not in the dictionary.</p>
+    <p>Kindly check the spelling of the search word: <em>{{ word }}</em></p>
+</div>
+
+{% endblock %}

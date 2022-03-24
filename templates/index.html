@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+{% block title %}
+HOME
+{% endblock %}
+
+{% block main %}
+    <div class="fw-bold text-center">
+        <h1 class="fw-bold fs-1 my-3">GOOD {{ greeting }}</h1>
+    </div>
+
+    <div>
+<!-- Guess word game button -->
+        <div class="mx-auto m-3">
+            <img src="/static/images/gwt-logo.svg" alt="Guess Word Type Logo" id="gwtlogo">
+            <button class="btn bg-dark text-white" disabled>PLAY GAME</button>
+        </div>
+    <div>
+        <h3><i>Random Word:</i> <a href="/entry?w={{random_word}}" id="credits"> {{ random_word }}</a></h3>
+    </div>
+{% endblock %}

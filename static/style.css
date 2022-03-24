@@ -1,0 +1,117 @@
+/* Font import */
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+/* layout.html*/
+body{
+    font-family:'Open Sans', sans-serif !important;
+}
+
+nav {
+    background-color: orange !important;
+}
+
+main footer{
+    background-color: #FCDBDC;
+}
+
+footer {
+    margin-top: 100px;
+    margin-bottom: 20px;
+
+}
+
+#credits{
+    font-weight: 500;
+    color: #666;
+    text-decoration: none;
+}
+
+#credits:hover {
+    color: #F15A24;
+}
+
+#sidebar{
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(254,74,0,1) 54%, rgba(255,27,0,1) 100%);
+    height: 20%;
+    /*background-image: url(https://images.unsplash.com/photo-1639498624831-9ffb4ebc222b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80);*/
+    background-repeat: none;
+    background-size: 100%;
+    background-position: -100px;
+     Layout
+    padding: 2%;
+
+}
+
+#sidebar h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 900;
+    font-size: 90px;
+    text-align: center;
+}
+
+#magnifier {
+    width: 5vh;
+}
+
+
+#gwtlogo {
+    height: 40px;
+}
+
+#navbutton {
+    background-color: #F15A24;
+    color: white;
+}
+
+
+/* entry.html */
+
+.name h1{
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 800;
+    font-size: 70px;
+}
+
+.wordtype {
+    padding: 2%;
+    color: orangered;
+    font-weight: 600;
+}
+
+.hline {
+    width: 90%;
+    height: 200px;
+    color: orange;
+}
+
+.definitions {
+    width: 90%;
+    font-weight: 500;
+}
+
+/* apology.html*/
+
+#apology {
+    width: 15%
+}
+
+/*notfound.html*/
+#notfound {
+    width: 10%;
+}
+
+/*more.html*/
+
+.anchors{
+    text-decoration: none;
+    color: orangered;
+}
+
+.anchors:hover {
+    color: black;
+}
